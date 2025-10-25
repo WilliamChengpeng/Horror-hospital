@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 173906eb22714ca59fa1529d47be4e72
+timeCreated: 1677075774
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit (Post Processing, Timeline Tracks, Shaders, Tools)
+  packageVersion: 2.10.1
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/_Exp/Crt/CrtPass.cs
+  uploadId: 807516

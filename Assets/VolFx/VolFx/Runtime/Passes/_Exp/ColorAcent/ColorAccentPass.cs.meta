@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a6d812c22717500468481e93a3dc6afe
+timeCreated: 1676451700
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit (Post Processing, Timeline Tracks, Shaders, Tools)
+  packageVersion: 2.10.1
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/_Exp/ColorAcent/ColorAccentPass.cs
+  uploadId: 807516

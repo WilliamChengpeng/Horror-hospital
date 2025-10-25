@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b937e707298365a40aed9b230ba223a1
+timeCreated: 1677239408
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit (Post Processing, Timeline Tracks, Shaders, Tools)
+  packageVersion: 2.10.1
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/_Exp/Lut/LutVol.cs
+  uploadId: 807516

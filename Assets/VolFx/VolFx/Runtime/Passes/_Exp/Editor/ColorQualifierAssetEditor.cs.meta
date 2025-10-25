@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 13c7e7a985cc4fc9a0b7b0e56e49e44e
+timeCreated: 1702893914
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit (Post Processing, Timeline Tracks, Shaders, Tools)
+  packageVersion: 2.10.1
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/_Exp/Editor/ColorQualifierAssetEditor.cs
+  uploadId: 807516

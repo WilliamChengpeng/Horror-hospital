@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 17b45a069e5149e08052b3b3347f1b6b
+timeCreated: 1677075267
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300643
+  packageName: VolFx - VFX Toolkit (Post Processing, Timeline Tracks, Shaders, Tools)
+  packageVersion: 2.10.1
+  assetPath: Assets/VolFx/VolFx/Runtime/Passes/_Exp/Crt/Crt.shader
+  uploadId: 807516
