@@ -26,6 +26,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHATEST_ON
+  - _EMISSION
   m_InvalidKeywords:
   - _FLIPBOOKBLENDING_OFF
   m_LightmapFlags: 6
@@ -133,3 +134,4 @@ Material:
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _TintColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 0.8627451}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
