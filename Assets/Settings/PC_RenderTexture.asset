@@ -517,7 +517,7 @@ MonoBehaviour:
     enabled: 1
     value:
       serializedVersion: 2
-      m_Bits: 2
+      m_Bits: 64
   _source:
     _source: 1
     _globalTex: _inputTex

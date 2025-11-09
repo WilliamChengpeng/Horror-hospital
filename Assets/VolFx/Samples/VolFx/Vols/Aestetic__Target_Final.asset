@@ -104,6 +104,9 @@ MonoBehaviour:
   m_Weight:
     m_OverrideState: 1
     m_Value: 1
+  m_WeightOverride:
+    m_OverrideState: 0
+    m_Value: 0
   m_Value:
     m_OverrideState: 1
     m_Value: 0.007
@@ -286,6 +289,15 @@ MonoBehaviour:
       - {r: 0.9354839, g: 0.9354839, b: 0.9354839, a: 0}
       - {r: 0.9677419, g: 0.9677419, b: 0.9677419, a: 0}
       - {r: 1, g: 1, b: 1, a: 0}
+  m_Offset:
+    m_OverrideState: 0
+    m_Value: 0
+  m_Motion:
+    m_OverrideState: 0
+    m_Value: 0
+  m_Stretch:
+    m_OverrideState: 0
+    m_Value: 0
   m_Mask:
     m_OverrideState: 0
     m_Value: {x: 0, y: 1}
@@ -559,6 +571,9 @@ MonoBehaviour:
   _flickering:
     m_OverrideState: 1
     m_Value: 0
+  _lines:
+    m_OverrideState: 0
+    m_Value: 1
   _color:
     m_OverrideState: 1
     m_Value: {r: 1, g: 0, b: 0, a: 1}
@@ -611,6 +626,18 @@ MonoBehaviour:
   m_Focus:
     m_OverrideState: 1
     m_Value: 0.336
+  m_Fps:
+    m_OverrideState: 0
+    m_Value: 60
+  m_MotionTex:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  m_MotionPower:
+    m_OverrideState: 0
+    m_Value: 0
+  m_MotionMove:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!114 &-1341063684859468166
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -626,10 +653,10 @@ MonoBehaviour:
   active: 1
   m_Sensitive:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 0.792
   m_Thickness:
     m_OverrideState: 1
-    m_Value: 0.15
+    m_Value: 0.18
   m_Color:
     m_OverrideState: 1
     m_Value:
@@ -699,18 +726,18 @@ MonoBehaviour:
   m_Fill:
     m_OverrideState: 1
     m_Value: {r: 0, g: 0, b: 0, a: 0}
-  m_Adaptive:
-    m_OverrideState: 1
-    m_Value: 0
-  m_Sharp:
-    m_OverrideState: 1
-    m_Value: 1
-  m_Remap:
-    m_OverrideState: 1
-    m_Value: 0
   m_Mode:
     m_OverrideState: 1
     m_Value: 3
+  m_Sharp:
+    m_OverrideState: 1
+    m_Value: 1
+  m_Adaptive:
+    m_OverrideState: 1
+    m_Value: 0
+  m_Remap:
+    m_OverrideState: 1
+    m_Value: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -733,7 +760,6 @@ MonoBehaviour:
   - {fileID: 6947547182979574107}
   - {fileID: -6214267068685778117}
   - {fileID: -3475716042063488108}
-  - {fileID: 6311414053704881290}
   - {fileID: -1341063684859468166}
   - {fileID: -5461678656411648548}
   - {fileID: -7416320033745241760}
@@ -1414,7 +1440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 584f4d053daa4e17a331821f306111c9, type: 3}
   m_Name: ChromaticVol
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   _Weight:
     m_OverrideState: 1
     m_Value: 1
