@@ -1,5 +1,125 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8644712579852777989
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1254846a14680e74fac3c525122dd788, type: 3}
+  m_Name: Blit
+  m_EditorClassIdentifier: 
+  _active: 1
+  _shader: {fileID: 0}
+  _showInInspector: 0
+  _invert: 0
+  _mat: {fileID: 0}
+  _pass:
+    enabled: 0
+    value: 0
+--- !u!114 &-6631160481001167055
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447ed90198624d459ee11f60dbf86ffc, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: 
+  _active: 1
+  _shader: {fileID: 4800000, guid: a181405f9bf44aef9074ccf0a6292106, type: 3}
+  _mode: 1
+  _samples: 7
+  _scatterMax:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _scatterMin:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _flicker:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5
+      value: 0.77
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 1
+    m_RotationOrder: 4
+  _flickerPeriod: 7
+  _hdr: 1
+  _bloomOnly: 0
 --- !u!114 &-4742266925647783461
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -444,6 +564,69 @@ MonoBehaviour:
   - {fileID: 2800000, guid: bc0d91bf1c4d89d4c8796682be429e14, type: 3}
   - {fileID: 2800000, guid: 0ace482272b64fc40837a5ee28939c86, type: 3}
   - {fileID: 2800000, guid: 52c8c6fc158b1ff4ba8c5e434e700e1b, type: 3}
+--- !u!114 &-3210223998487909528
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efb8271c6634d194ca074e3c52a639ee, type: 3}
+  m_Name: Invert
+  m_EditorClassIdentifier: 
+  _active: 1
+  _shader: {fileID: 4800000, guid: a8a8d9d8743c6f64b89ba15b99d6ba9c, type: 3}
+--- !u!114 &-2925107695358988361
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98d6139e81eeae4ca43472e7467e46e, type: 3}
+  m_Name: Ascii
+  m_EditorClassIdentifier: 
+  _active: 1
+  _shader: {fileID: 4800000, guid: e3111a8d989e6a547a827386135ea0f8, type: 3}
+  _noiseScale: 0.5
+  _absolute: 1
+  _gradient: {fileID: 2800000, guid: 0a795d9de0702d840bb9093bf015c355, type: 3}
+  _palette:
+    enabled: 0
+    value: {fileID: 2800000, guid: 375120ba5ec0f1d4eaa7f761d1a3d758, type: 3}
+  _depth: 1
+  _scale: 1
+  _scaleLerp:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.0369
+      outSlope: 0.0369
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0.8459
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: 56.8515
+      outSlope: 56.8515
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.0104
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _frameRate: 0
+  _ascii: {r: 1, g: 1, b: 1, a: 1}
+  _image: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -499,6 +682,21 @@ MonoBehaviour:
   m_DepthTextureFormat: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 1
+--- !u!114 &761698191216839479
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c4c3f73384e5a43a2365e8f39a5758, type: 3}
+  m_Name: Lut
+  m_EditorClassIdentifier: 
+  _active: 1
+  _shader: {fileID: 4800000, guid: 3682b2e9695a37a40b7600e43762ae10, type: 3}
+  _sourceAplha: 1
 --- !u!114 &1754830747270990233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540,6 +738,11 @@ MonoBehaviour:
     - {fileID: 4656612970662498335}
     - {fileID: -4742266925647783461}
     - {fileID: 2347242634196677379}
+    - {fileID: -6631160481001167055}
+    - {fileID: -2925107695358988361}
+    - {fileID: 761698191216839479}
+    - {fileID: -3210223998487909528}
+    - {fileID: -8644712579852777989}
   _blitShader: {fileID: 4800000, guid: a8a709d9db2241741ab3032b946ef258, type: 3}
 --- !u!114 &2347242634196677379
 MonoBehaviour:
