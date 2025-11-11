@@ -23,6 +23,9 @@ public class FirstPersonController : MonoBehaviour
     private bool isRunning = false;
     private float cameraPitch = 0f;
 
+    public Animator camAnimator;
+
+
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
@@ -57,6 +60,23 @@ public class FirstPersonController : MonoBehaviour
     {
         HandleMovement();
         HandleMouseLook();
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            camAnimator.Play("CameraPickup");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            camAnimator.Play("CameraOpen");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            camAnimator.Play("CameraOpened");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            camAnimator.Play("CameraCloseed");
+        }
     }
 
     private void HandleMovement()
