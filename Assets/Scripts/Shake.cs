@@ -16,10 +16,10 @@ public class Shake : MonoBehaviour
 
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.Alpha3))
-        //{
-        //    start = true;
-        //}
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            start = true;
+        }
 
         if (start)
         {
