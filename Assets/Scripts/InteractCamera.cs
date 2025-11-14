@@ -11,7 +11,7 @@ public class InteractCamera : MonoBehaviour, IInteract
     public void OnInteract()
     {
         //throw new System.NotImplementedException();
-        this.gameObject.SetActive ( false);
+        this.gameObject.SetActive (false);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
