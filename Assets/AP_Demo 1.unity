@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 05d45e46be4552145877983d695851f6, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: a107207066adc2b4f9b864717ff64f0e, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -57638,7 +57638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 1737880310}
-  detectRange: 5
+  detectRange: 2
   castRadius: 0.25
   interactableMask:
     serializedVersion: 2
@@ -328340,7 +328340,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1469186903785681115, guid: 3efe3143edd7fd1438d73d2145922dc0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3194101
+      value: 0.31941012
       objectReference: {fileID: 0}
     - target: {fileID: 1469186903785681115, guid: 3efe3143edd7fd1438d73d2145922dc0, type: 3}
       propertyPath: m_LocalScale.y
@@ -328348,23 +328348,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1469186903785681115, guid: 3efe3143edd7fd1438d73d2145922dc0, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3194101
+      value: 0.31941012
       objectReference: {fileID: 0}
     - target: {fileID: 1469186903785681115, guid: 3efe3143edd7fd1438d73d2145922dc0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.129
+      value: -25.828264
       objectReference: {fileID: 0}
     - target: {fileID: 1469186903785681115, guid: 3efe3143edd7fd1438d73d2145922dc0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.1
+      value: 6.61472
       objectReference: {fileID: 0}
     - target: {fileID: 1469186903785681115, guid: 3efe3143edd7fd1438d73d2145922dc0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -64.53
+      value: -13.585072
       objectReference: {fileID: 0}
     - target: {fileID: 1469186903785681115, guid: 3efe3143edd7fd1438d73d2145922dc0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.9841322
+      value: -0.9841321
       objectReference: {fileID: 0}
     - target: {fileID: 1469186903785681115, guid: 3efe3143edd7fd1438d73d2145922dc0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -375525,6 +375525,7 @@ SceneRoots:
   - {fileID: 745642005}
   - {fileID: 1147287115}
   - {fileID: 1510970332}
+  - {fileID: 1891092893}
   - {fileID: 1312988888}
   - {fileID: 1338752593}
   - {fileID: 1987345706}
@@ -375532,7 +375533,6 @@ SceneRoots:
   - {fileID: 1778069014}
   - {fileID: 1343763112}
   - {fileID: 1229953816}
-  - {fileID: 1891092893}
   - {fileID: 237021535}
   - {fileID: 1995248681}
   - {fileID: 153426628}
