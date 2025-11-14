@@ -616,7 +616,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: -0.31}
   m_Tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.36862743, b: 0.5096954, a: 0.42745098}
+    m_Value: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 0.42745098}
   m_Print:
     m_OverrideState: 1
     m_Value: 1
