@@ -21,10 +21,10 @@ public class PVController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             room1Door.Play("Open");
-            room2Door.Play("Open2");
-            room3Door.Play("Open3");
-            room4Door.Play("Open4");
-            room5Door.Play("Open5");
+           // room2Door.Play("Open2");
+            //room3Door.Play("Open3");
+            //room4Door.Play("Open4");
+            //room5Door.Play("Open5");
             room6Door.Play("Open6");
             room7Door.Play("Open7");
         }
